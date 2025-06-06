@@ -8,9 +8,9 @@ Rapple20 est une application web interactive de **battle rap contre une intellig
 
 - 🎙 Enregistrement vocal depuis le navigateur
 - 🔊 Transcription automatique via Whisper
-- 💬 Génération de réponses avec un LLM local (via LM Studio)
+- 💬 Génération de réponses avec un LLM local (via LM Studio) / via `Elida-Sensoy/gpt2-eminem-lyrics`
 - 🗣 Synthèse vocale avec Microsoft Edge TTS
-- 🕺 Alignement rythmique avec Gentle (forced alignment)
+- 🕺 Alignement rythmique avec Gentle (forced alignment) (sur notebook ou via `Docker Desktop`)
 - ⏱ Time-stretch des mots pour matcher le tempo du beat
 - 🎶 Superposition automatique voix + beat
 
@@ -44,6 +44,8 @@ cd rapple20
 ### 2. Backend (Python)
 Prérequis :
 Python 3.8+
+
+Pour la version sur desktop (et non sur notebook) :
 
 CUDA recommandé (sinon adapter Whisper en CPU)
 
