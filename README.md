@@ -18,7 +18,7 @@ Rapple20 est une application web interactive de **battle rap contre une intellig
 
 ## 🧱 Architecture
 
-- **Frontend** : React + TailwindCSS
+- **Frontend** : React JS + TailwindCSS ; utilisation de la librairie `react-mic`
 - **Backend** : Flask (Python)
 - **Traitement audio** : librosa, PyDub, SoundFile, faster-whisper
 - **LLM** : LM Studio local
@@ -29,7 +29,7 @@ Rapple20 est une application web interactive de **battle rap contre une intellig
 
 ## 📸 Aperçu
 🎙 [START] --> 🎧 Enregistrement --> ✍️ Transcription --> 🧠 Réponse IA -->
-🔈 Synthèse vocale --> 🕺 Rythme aligné au beat --> 🎵 Mix final
+🔈 Synthèse vocale --> 🕺 Rythme aligné sur le beat --> 🎵 Mix final
 
 ---
 
@@ -48,8 +48,13 @@ Python 3.8+
 CUDA recommandé (sinon adapter Whisper en CPU)
 
 LM Studio local lancé sur localhost:1234
+ - Onglet Developer
+ - "Select a model to load"
+ - "gemma-3-1b-it-qat"
+ - Activer le serveur : "Status running" en haut à gauche
 Gentle lancé sur localhost:8765
-Fichier beat.wav dans le dossier du backend
+- Sur un terminal, une fois le logiciel lancé, écrire : docker run -p 8765:8765 lowerquality/gentle
+Fichier "beat.wav" dans le dossier du backend, ou dans le terminal dans lequel vous êtes.
 
 **Installation :**
 ```
