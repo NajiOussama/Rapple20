@@ -49,9 +49,10 @@ CUDA recommandé (sinon adapter Whisper en CPU)
 
 LM Studio local lancé sur localhost:1234
  - Onglet Developer
- - "Select a model to load"
- - "gemma-3-1b-it-qat"
- - Activer le serveur : "Status running" en haut à gauche
+ - `Select a model to load`
+ - `gemma-3-1b-it-qat`
+ - Activer le serveur : `Status running` en haut à gauche
+
 Gentle lancé sur localhost:8765
 - Sur un terminal, une fois le logiciel lancé, écrire : docker run -p 8765:8765 lowerquality/gentle
 Fichier "beat.wav" dans le dossier du backend, ou dans le terminal dans lequel vous êtes.
