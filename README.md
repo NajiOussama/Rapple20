@@ -4,6 +4,13 @@ Rapple20 est une application web interactive de **battle rap contre une intellig
 
 ---
 
+## 📚 Source
+
+Ce projet est basé sur le projet **Rapple**, développé par Diego Di Carlo :  
+🔗 [https://diegodicarlo.com/projects/rapple](https://diegodicarlo.com/projects/rapple)
+
+---
+
 ## 🚀 Fonctionnalités
 
 - 🎙 Enregistrement vocal depuis le navigateur
